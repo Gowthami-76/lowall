@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LOWALL",
+    "slug": "bolt-expo-nativewind",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo1.png",
+    "scheme": "LOWALL",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/logo1.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "af23ef94-caae-484b-b663-4a01d1c2b20d"
+      }
+    },
+    "android": {
+      "package": "com.sureshpentapilli.boltexponativewind"
+    }
+  }
+}
